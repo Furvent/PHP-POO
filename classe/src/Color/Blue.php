@@ -1,5 +1,8 @@
 <?php
-class Blue {
+
+namespace Car\Color;
+
+class Blue implements  ColorInterface{
     public function getName() : string {
         return "Blue";
     }

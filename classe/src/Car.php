@@ -1,4 +1,7 @@
 <?php
+
+namespace Car;
+
 class Car
 {
     #region CONST */

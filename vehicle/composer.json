@@ -1,0 +1,18 @@
+{
+  "name": "furvent/classe",
+  "description": "Indéterminée",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Furvent",
+      "email": "furventt@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Vehicle\\": "src/"
+    }
+  }
+}
