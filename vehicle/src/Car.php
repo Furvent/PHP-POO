@@ -8,12 +8,16 @@
 
 namespace Vehicle;
 
+use Vehicle\Exception\CarAlreadyStartedException;
+use Vehicle\Exception\CarAlreadyStoppedException;
 
 class Car
 {
-    private $engine;
+    const STATUS_ON = "on";
+    const STATUS_OFF = "off";
+    private $status;
 
-    private $isRunning;
+    private $engine;
 
     /**
      * Car constructor.
@@ -22,23 +26,27 @@ class Car
     public function __construct(EngineInterface $engine)
     {
         $this->engine = $engine;
-        $this->isRunning = false;
+        $this->status = self::STATUS_OFF;
     }
 
 
     public function start()
     {
-        if (!$this->isRunning) {
-            $this->isRunning = true;
+        if ($this->status === self::STATUS_OFF) {
+            $this->status = self::STATUS_ON;
             return $this->engine->turnOn();
+        } else {
+            throw new CarAlreadyStartedException();
         }
     }
 
     public function stop()
     {
-        if($this->isRunning) {
-            $this->isRunning = false;
+        if ($this->status === self::STATUS_ON) {
+            $this->status = self::STATUS_OFF;
             return $this->engine->turnOff();
+        } else {
+            throw new CarAlreadyStoppedException();
         }
     }
 }

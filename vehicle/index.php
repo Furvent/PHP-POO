@@ -8,9 +8,21 @@
 
 include "vendor/autoload.php";
 
-use Vehicle\Engine\Diesel;
 use Vehicle\Car;
+use Vehicle\Engine\Diesel;
+use Vehicle\Exception\CarAlreadyStartedException;
+use Vehicle\Exception\CarAlreadyStoppedException;
 
 $quatreElle = new Car(new Diesel());
-var_dump($quatreElle->start());
-var_dump($quatreElle->stop());
+try {
+    var_dump($quatreElle->start());
+    var_dump($quatreElle->start());
+} catch (CarAlreadyStartedException $e) {
+    var_dump($quatreElle->stop());
+}
+
+try {
+    var_dump($quatreElle->stop());
+} catch (CarAlreadyStoppedException $e) {
+    var_dump($quatreElle->start());
+}

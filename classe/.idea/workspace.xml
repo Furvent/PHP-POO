@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc659ae8-9947-4151-ad50-8ce51aa0cf6f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Car.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Color/Black.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Color/Blue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Color/Red.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ColorStock.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicle/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicle/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicle/src/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicle/src/Car.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
