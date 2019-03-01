@@ -18,6 +18,7 @@ try {
     var_dump($quatreElle->start());
     var_dump($quatreElle->start());
 } catch (CarAlreadyStartedException $e) {
+    var_dump($e->getMessage());
     var_dump($quatreElle->stop());
 }
 
@@ -26,3 +27,5 @@ try {
 } catch (CarAlreadyStoppedException $e) {
     var_dump($quatreElle->start());
 }
+
+// Demander à JLouis comment c'est possible que Exception recup le message, où est le code qui implémente cette fonctionnalité ?

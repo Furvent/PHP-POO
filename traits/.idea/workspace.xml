@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d94425e2-cd00-402a-a606-36a428f2b350" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../classe/.idea/classe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../classe/.idea/classe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classe/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../classe/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../classe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../classe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classe/Car.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classe/Color/Black.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classe/Color/Blue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classe/Color/Red.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classe/ColorStock.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../classe/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../classe/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classe/index2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../classe/index2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classe/src/Colors/Color.php" beforeDir="false" afterPath="$PROJECT_DIR$/../classe/src/Colors/Color.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classe/src/Colors/Pink.php" beforeDir="false" afterPath="$PROJECT_DIR$/../classe/src/Colors/Pink.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vehicle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vehicle/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Traits/Timestamp.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -27,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -122,24 +122,19 @@
       <option name="presentableId" value="Default" />
       <updated>1551349324722</updated>
       <workItem from="1551349326207" duration="1768000" />
+      <workItem from="1551445421791" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1768000" />
+    <option name="totallyTimeSpent" value="1781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16097023" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16262403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -147,10 +142,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,17 +164,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Traits/Timestamp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Traits/Timestamp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>

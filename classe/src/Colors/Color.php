@@ -10,7 +10,7 @@ namespace Car\Colors;
 
 abstract class Color
 {
-    protected $name = "no name";
+    private $name = "no name";
     protected $hexaCode = "no hexa";
 
     public function getName(): string

@@ -5,8 +5,12 @@
  * Date: 28/02/2019
  * Time: 10:16
  */
-include "Colors/Color.php";
-include "Colors/Pink.php";
+
+
+
+include "vendor/autoload.php";
+
+use Car\Colors\Pink;
 
 // $color = new Color();
 // var_dump($color->getName());
