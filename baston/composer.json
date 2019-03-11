@@ -1,0 +1,15 @@
+{
+    "name": "matthieukoskas/baston",
+    "authors": [
+        {
+            "name": "Matthieu-Furvent",
+            "email": "ze.karel@free.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Baston\\": "src/"
+        }
+    }
+}

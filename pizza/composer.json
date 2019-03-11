@@ -1,0 +1,17 @@
+{
+    "name": "matthieukoskas/pizza",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthieu-Furvent",
+            "email": "ze.karel@free.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pizza\\": "src/"
+        }
+    }
+}
